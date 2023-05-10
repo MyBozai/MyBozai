@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2023-05-10T16:10:05.413Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35" etag="F3HMjrofuLOsYV8pGrX5" version="21.2.9" type="github">
+  <diagram name="第 1 页" id="FenQAODzUneoOWFKqAZ9">
+    <mxGraphModel dx="792" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nb34lZQEM5mBSIf5kvw3-1" value="根节点：A&lt;br&gt;左中序：DB 左后序：DB&lt;br&gt;右中序：CE 右后序：EC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="110" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nb34lZQEM5mBSIf5kvw3-2" value="根节点：B&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;左中序：D&amp;nbsp; 左后序：D&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;右中序：空 右后序：空" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="230" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nb34lZQEM5mBSIf5kvw3-3" value="根节点：C&lt;br&gt;左中序：空 左后序：空&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;右中序：E&amp;nbsp; 右后序：E" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="230" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nb34lZQEM5mBSIf5kvw3-4" value="根节点：E&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;左中序：空 左后序：空&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;右中序：空 右后序：空" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="380" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nb34lZQEM5mBSIf5kvw3-5" value="根节点：D&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;左中序：空 左后序：空&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;右中序：空 右后序：空" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="380" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nb34lZQEM5mBSIf5kvw3-9" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nb34lZQEM5mBSIf5kvw3-5" target="nb34lZQEM5mBSIf5kvw3-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="590" as="sourcePoint" />
+            <mxPoint x="270" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nb34lZQEM5mBSIf5kvw3-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.433;exitY=0.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nb34lZQEM5mBSIf5kvw3-4" target="nb34lZQEM5mBSIf5kvw3-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="590" as="sourcePoint" />
+            <mxPoint x="430" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nb34lZQEM5mBSIf5kvw3-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nb34lZQEM5mBSIf5kvw3-2" target="nb34lZQEM5mBSIf5kvw3-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="170" as="sourcePoint" />
+            <mxPoint x="250" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nb34lZQEM5mBSIf5kvw3-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nb34lZQEM5mBSIf5kvw3-3" target="nb34lZQEM5mBSIf5kvw3-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="210" as="sourcePoint" />
+            <mxPoint x="240" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
